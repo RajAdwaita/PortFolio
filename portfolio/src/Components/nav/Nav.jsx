@@ -8,11 +8,11 @@ const Nav = () => {
 
     return (
         <nav>
-            <a href="#" className='active'><BiHomeAlt /></a>
-            <a href="#about"><BiHomeAlt /></a>
-            <a href="#experience"><BiHomeAlt /></a>
-            <a href="#services"><BiHomeAlt /></a>
-            <a href="#contact"><BiHomeAlt /></a>
+            <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt /></a>
+            <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiHomeAlt /></a>
+            <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiHomeAlt /></a>
+            <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><BiHomeAlt /></a>
+            <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiHomeAlt /></a>
         </nav>
     )
 }
