@@ -34,6 +34,9 @@ const About = () => {
                         </article>
                     </div>
 
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quam incidunt iusto soluta error labore ad distinctio, expedita natus eaque. Ut sint nisi reiciendis expedita!</p>
+                    <a href="#contact" className='btn btn-primary'>Get In Touch</a>
+
                 </div>
             </div>
         </section>
