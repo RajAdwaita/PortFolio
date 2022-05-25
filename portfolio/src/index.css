@@ -27,10 +27,10 @@ code {
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: #740c48;
   --color-bg-variant: #2f2f4f;
-  --color-primary: #ffd700;
-  --color-primary-variant: #ffd700;
+  --color-primary: #F5C32C;
+  --color-primary-variant: #FCA61F;
   --color-white: #ffffff;
   --color-light: #fafafa;
   --transition: all 400ms ease;
