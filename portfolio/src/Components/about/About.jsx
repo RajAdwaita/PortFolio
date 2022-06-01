@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import img from "../../assets/me-about.jpg"
+import img from "../../assets/me-about.jpeg"
 import { SiMaterialdesignicons } from 'react-icons/si'
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
             <div className="container about_container">
                 <div className="about_me">
                     <div className="about_me_image">
-                        <img src={img} alt="About Image" />
+                        <img src={img} alt="About Image" className='iimg' />
                     </div>
                 </div>
 

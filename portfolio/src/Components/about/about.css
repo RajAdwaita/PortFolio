@@ -21,6 +21,10 @@
 
 }
 
+/* .iimg {
+    height: 30rem;
+} */
+
 .about_me_image:hover {
     /* transform: rotate(15deg); */
     transform: rotate(375deg);
@@ -28,6 +32,7 @@
 }
 
 .about_cards {
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem
@@ -45,7 +50,8 @@
 
 .about_card:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    /* border-color: var(--color-primary-variant); */
+    background: linear-gradient(315deg, #ffbc00, #ff0058);
 }
 
 .about_icon {

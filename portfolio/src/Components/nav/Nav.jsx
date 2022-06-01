@@ -7,6 +7,7 @@ import { BsFillPersonFill } from "react-icons/bs"
 import { GrBarChart } from "react-icons/gr"
 import { GoGraph } from "react-icons/go"
 import { GrProjects } from "react-icons/gr"
+import { GoAlert } from "react-icons/go"
 const Nav = () => {
     const [activeNav, setActiveNav] = useState("#");
 
@@ -15,7 +16,7 @@ const Nav = () => {
             <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt /></a>
             <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BsFillPersonFill /></a>
             <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><GoGraph /></a>
-            <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><GrProjects /></a>
+            <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><GoAlert /></a>
             <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlineMail /></a>
         </nav>
     )
