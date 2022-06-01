@@ -1,6 +1,7 @@
 import React from 'react'
 import "./footer.css"
-import { BsInstagram } from "react-icons/bs";
+import { BsGithub, BsInstagram } from "react-icons/bs";
+
 import { SiCodechef, SiLeetcode } from "react-icons/si";
 const Footer = () => {
     return (
@@ -19,7 +20,7 @@ const Footer = () => {
                 </ul>
                 <div className="footer_socials">
 
-                    <a href=""><BsInstagram /></a>
+                    <a href=""><BsGithub /></a>
                     <a href=""><SiCodechef /></a>
                     <a href=""><SiLeetcode /></a>
                 </div>
