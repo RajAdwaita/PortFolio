@@ -1,8 +1,33 @@
 import React from 'react'
 import "./footer.css"
+import { BsInstagram } from "react-icons/bs";
+import { SiCodechef, SiLeetcode } from "react-icons/si";
 const Footer = () => {
     return (
-        <section>Footer</section>
+        <footer>
+            <a href="#" className='footer_logo'>
+
+                <ul className="permalinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+                <div className="footer_socials">
+
+                    <a href=""><BsInstagram /></a>
+                    <a href=""><SiCodechef /></a>
+                    <a href=""><SiLeetcode /></a>
+                </div>
+                <div className="footer_copyright">
+                    <small>&copy;Adwaita</small>
+                </div>
+            </a>
+        </footer>
     )
 }
 
