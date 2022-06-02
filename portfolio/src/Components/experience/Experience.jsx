@@ -1,8 +1,9 @@
 import React from 'react'
 import "./experience.css"
-import { FaReact } from 'react-icons/fa'
+import { FaReact, FaHtml5, FaCss3Alt, FaJava, FaBootstrap, FaPython, FaLinux } from 'react-icons/fa'
 import { DiMongodb } from 'react-icons/di'
-
+import { SiJavascript, SiCplusplus } from 'react-icons/si'
+import { BsGithub } from 'react-icons/bs'
 const Experience = () => {
     return (
         <section id='experience'>
@@ -11,40 +12,47 @@ const Experience = () => {
 
             <div className="container experience_container">
                 <div className="experience_frontend">
-                    <h3>FroneEnd Development</h3>
+                    <h3>Web Development</h3>
                     <div className="experience_content">
                         <article className='experience_details'>
-                            <FaReact className='experience_details_icon' />
+                            <FaHtml5 className='experience_details_icon' />
                             <div>
-                                <h4>React</h4>
+                                <h4>HTML</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <FaCss3Alt className='experience_details_icon' />
+                            <div>
+                                <h4>CSS</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className='experience_details'>
+                            <SiJavascript className='experience_details_icon' />
+                            <div>
+                                <h4>JAVASCRIPT</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience_details'>
                             <FaReact className='experience_details_icon' />
                             <div>
-                                <h4>React</h4>
+                                <h4>React Js</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience_details'>
-                            <FaReact className='experience_details_icon' />
+                            <DiMongodb className='experience_details_icon' />
                             <div>
-                                <h4>React</h4>
+                                <h4>MONGODB</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
                         <article className='experience_details'>
-                            <FaReact className='experience_details_icon' />
+                            <FaBootstrap className='experience_details_icon' />
                             <div>
-                                <h4>React</h4>
-                                <small className='text-light'>Intermediate</small>
-                            </div>
-                        </article>
-                        <article className='experience_details'>
-                            <FaReact className='experience_details_icon' />
-                            <div>
-                                <h4>React</h4>
+                                <h4>BOOTSTRAP</h4>
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
@@ -52,39 +60,39 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className="experience_backend">
-                    <h3>BackEnd Development</h3><div className="experience_content">
+                    <h3>Coding</h3><div className="experience_content">
                         <article className='experience_details'>
-                            <DiMongodb className='experience_details_icon' />
+                            <FaJava className='experience_details_icon' />
                             <div>
-                                <h4>MongoDb</h4>
+                                <h4>JAVA</h4>
                                 <small className='text-light'>Noob</small>
                             </div>
                         </article>
                         <article className='experience_details'>
-                            <DiMongodb className='experience_details_icon' />
+                            <SiCplusplus className='experience_details_icon' />
                             <div>
-                                <h4>MongoDb</h4>
+                                <h4>C++</h4>
                                 <small className='text-light'>Noob</small>
                             </div>
                         </article>
                         <article className='experience_details'>
-                            <DiMongodb className='experience_details_icon' />
+                            <FaPython className='experience_details_icon' />
                             <div>
-                                <h4>MongoDb</h4>
+                                <h4>PYTHON</h4>
                                 <small className='text-light'>Noob</small>
                             </div>
                         </article>
                         <article className='experience_details'>
-                            <DiMongodb className='experience_details_icon' />
+                            <FaLinux className='experience_details_icon' />
                             <div>
-                                <h4>MongoDb</h4>
+                                <h4>LINUX</h4>
                                 <small className='text-light'>Noob</small>
                             </div>
                         </article>
                         <article className='experience_details'>
-                            <DiMongodb className='experience_details_icon' />
+                            <BsGithub className='experience_details_icon' />
                             <div>
-                                <h4>MongoDb</h4>
+                                <h4>GITHUB</h4>
                                 <small className='text-light'>Noob</small>
                             </div>
                         </article>

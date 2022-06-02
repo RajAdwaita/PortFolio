@@ -37,6 +37,7 @@
 
 .experience_details_icon {
     margin: 6px;
+    font-size: 2rem;
     color: var(--color-primary);
 }
 
@@ -65,7 +66,7 @@
     .experience_container>div {
         width: 100%;
         padding: 2rem 1rem;
-        
+
 
     }
 }

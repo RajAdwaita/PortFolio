@@ -12,35 +12,35 @@ const data = [
     {
         id: 1,
         image: img1,
-        title: 'ITEM',
+        title: 'ShoeStore',
         github: 'https://github.com',
         website: 'https://github.com'
     },
     {
         id: 2,
         image: img2,
-        title: 'ITEM',
+        title: 'nCrypto',
         github: 'https://github.com',
         website: 'https://github.com'
     },
     {
         id: 3,
         image: img3,
-        title: 'ITEM',
+        title: 'LadyHub',
         github: 'https://github.com',
         website: 'https://github.com'
     },
     {
         id: 4,
         image: img4,
-        title: 'ITEM',
+        title: 'BankingAPP',
         github: 'https://github.com',
         website: 'https://github.com'
     },
     {
         id: 5,
         image: img5,
-        title: 'ITEM',
+        title: 'SpeechEmotionRecognition',
         github: 'https://github.com',
         website: 'https://github.com'
     },
@@ -58,8 +58,8 @@ const data = [
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-            <h5>Hello0</h5>
-            <h2>World</h2>
+            <h5>Check 'em out</h5>
+            <h2>PROJECTS</h2>
             <div className="container portfolio_container">
                 {
                     data.map(item => {
