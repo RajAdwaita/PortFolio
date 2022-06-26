@@ -25,7 +25,7 @@ const Footer = () => {
                     <a href=""><SiLeetcode /></a>
                 </div>
                 <div className="footer_copyright">
-                    <small>&copy;Adwaita</small>
+                    <small>&copy;Modak</small>
                 </div>
             </a>
         </footer>
