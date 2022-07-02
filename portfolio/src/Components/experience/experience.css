@@ -13,7 +13,8 @@
 }
 
 .experience_container>div:hover {
-    background: transparent;
+    background-image: linear-gradient(to right, blue, violet);
+    color: black;
     border: 1px solid var(--color-bg-variant);
 }
 

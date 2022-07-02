@@ -2,7 +2,8 @@ import React from 'react'
 import "./about.css"
 import img from "../../assets/me-about.jpeg"
 import { SiMaterialdesignicons } from 'react-icons/si'
-
+import { IoMdFootball } from 'react-icons/io'
+import { ImBooks } from 'react-icons/im'
 const About = () => {
     return (
         <section id='about'>
@@ -20,21 +21,21 @@ const About = () => {
                         <article className="about_card">
                             <SiMaterialdesignicons className='about_icon' />
                             <h5>Experience</h5>
-                            <small>2+ Years</small>
+                            <small>Still Learning</small>
                         </article>
                         <article className="about_card">
-                            <SiMaterialdesignicons className='about_icon' />
-                            <h5>Experience</h5>
-                            <small>2+ Years</small>
+                            <IoMdFootball className='about_icon' />
+                            <h5>Love </h5>
+                            <small>Football</small>
                         </article>
                         <article className="about_card">
-                            <SiMaterialdesignicons className='about_icon' />
-                            <h5>Experience</h5>
-                            <small>2+ Years</small>
+                            <ImBooks className='about_icon' />
+                            <h5>CGPA</h5>
+                            <small>9.07</small>
                         </article>
                     </div>
 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quam incidunt iusto soluta error labore ad distinctio, expedita natus eaque. Ut sint nisi reiciendis expedita!</p>
+                    <p>Junior at VIT Vellore, B.TECH in CSE with spl. in Blockchain Technology. Love to register for hackathons. Love to play EFootball. Happy to have found so many good friends in College.</p>
                     <a href="#contact" className='btn btn-primary'>Get In Touch</a>
 
                 </div>

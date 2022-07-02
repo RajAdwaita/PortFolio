@@ -4,7 +4,7 @@ const Cv = () => {
     return (
         <div className="cv">
             <a href={cv} download className='btn'>DOWNLOAD CV</a>
-            <a href="#contact" className='btn btn-primary'>Get In Touch</a>
+            {/* <a href="#contact" className='btn btn-primary'>Get In Touch</a> */}
         </div>
     )
 }
