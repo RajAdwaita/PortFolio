@@ -41,6 +41,12 @@
     color: var(--color-primary);
 }
 
+.bar {
+    height: 24px;
+    width: 20%;
+    color: red;
+}
+
 @media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr;

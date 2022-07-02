@@ -13,20 +13,20 @@ const Contact = () => {
                     <article className="contact_option">
                         <AiOutlineMail className='contact_option_icon' />
                         <h4>Email</h4>
-                        <h5>Bably@gmail.com</h5>
+                        <h5>adwaitaraj@gmail.com</h5>
                         <a href="mailto:adwaitaraj@gmail.com" target="_blank">Send Mail</a>
                     </article>
                     <article className="contact_option">
                         <BsWhatsapp className='contact_option_icon' />
                         <h4>Whatsapp</h4>
-                        <h5>Bably@gmail.com</h5>
+                        <h5>+91-9330554877</h5>
                         <a href="mailto:adwaitaraj@gmail.com" target="_blank">Send Mail</a>
                     </article>
                     <article className="contact_option">
                         <BsLinkedin className='contact_option_icon' />
                         <h4>LinkedIn</h4>
-                        <h5>Bably@gmail.com</h5>
-                        <a href="mailto:adwaitaraj@gmail.com" target="_blank">Send Mail</a>
+                        <h5>Adwaita</h5>
+                        <a href="https://www.linkedin.com/in/adwaita-raj-modak-5b435a203/" target="_blank">Send Mail</a>
                     </article>
 
                 </div>
