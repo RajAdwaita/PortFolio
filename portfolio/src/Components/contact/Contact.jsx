@@ -2,6 +2,7 @@ import React from 'react'
 import "./contact.css"
 import { AiOutlineMail } from "react-icons/ai";
 import { BsWhatsapp, BsLinkedin } from "react-icons/bs";
+import img from "../../assets/dev.png"
 const Contact = () => {
     return (
         <section id='contact'>
@@ -31,12 +32,9 @@ const Contact = () => {
 
                 </div>
 
-                <form action="">
-                    <input type="text" name='name' placeholder='Your Full Name' required />
-                    <input type="email" name='email' placeholder='Your Email' required />
-                    <textarea name="message" id="" rows="7" placeholder='Your message' required></textarea>
-                    <button type='submit' className='btn btn-primary' >Send Message</button>
-                </form>
+                <section className="imgg">
+                    <img src={img} alt="" />
+                </section>
             </div>
         </section>
     )
