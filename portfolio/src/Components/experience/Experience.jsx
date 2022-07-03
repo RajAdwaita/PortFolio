@@ -4,6 +4,7 @@ import { FaReact, FaHtml5, FaCss3Alt, FaJava, FaBootstrap, FaPython, FaLinux } f
 import { DiMongodb } from 'react-icons/di'
 import { SiJavascript, SiCplusplus } from 'react-icons/si'
 import { BsGithub } from 'react-icons/bs'
+import ProgressBar from './ProgressBar'
 const Experience = () => {
     return (
         <section id='experience'>
@@ -18,42 +19,53 @@ const Experience = () => {
                             <FaHtml5 className='experience_details_icon' />
                             <div>
                                 <h4>HTML</h4>
-                                <small className='text-light'>Intermediate</small>
+                                {/* <small className='text-light'>Intermediate</small> */}
+                                <ProgressBar done="70" />
                             </div>
                         </article>
                         <article className='experience_details'>
                             <FaCss3Alt className='experience_details_icon' />
                             <div>
                                 <h4>CSS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                {/* <small className='text-light'>Intermediate</small> */}
+                                <ProgressBar done="70" />
+
                             </div>
                         </article>
                         <article className='experience_details'>
                             <SiJavascript className='experience_details_icon' />
                             <div>
                                 <h4>JAVASCRIPT</h4>
-                                <small className='text-light'>Intermediate</small>
+                                {/* <small className='text-light'>Intermediate</small> */}
+                                <ProgressBar done="70" />
+
                             </div>
                         </article>
                         <article className='experience_details'>
                             <FaReact className='experience_details_icon' />
                             <div>
                                 <h4>React Js</h4>
-                                <small className='text-light'>Intermediate</small>
+                                {/* <small className='text-light'>Intermediate</small> */}
+                                <ProgressBar done="70" />
+
                             </div>
                         </article>
                         <article className='experience_details'>
                             <DiMongodb className='experience_details_icon' />
                             <div>
                                 <h4>MONGODB</h4>
-                                <small className='text-light'>Intermediate</small>
+                                {/* <small className='text-light'>Intermediate</small> */}
+                                <ProgressBar done="70" />
+
                             </div>
                         </article>
                         <article className='experience_details'>
                             <FaBootstrap className='experience_details_icon' />
                             <div>
                                 <h4>BOOTSTRAP</h4>
-                                <small className='text-light'>Intermediate</small>
+                                {/* <small className='text-light'>Intermediate</small> */}
+                                <ProgressBar done="70" />
+
                             </div>
                         </article>
 
@@ -65,35 +77,40 @@ const Experience = () => {
                             <FaJava className='experience_details_icon' />
                             <div>
                                 <h4>JAVA</h4>
-                                <small className='text-light'>Noob</small>
+                                {/* <small className='text-light'>Noob</small> */}
+                                <ProgressBar done="70" />
                             </div>
                         </article>
                         <article className='experience_details'>
                             <SiCplusplus className='experience_details_icon' />
                             <div>
                                 <h4>C++</h4>
-                                <small className='text-light'>Noob</small>
+                                {/* <small className='text-light'>Noob</small> */}
+                                <ProgressBar done="70" />
                             </div>
                         </article>
                         <article className='experience_details'>
                             <FaPython className='experience_details_icon' />
                             <div>
                                 <h4>PYTHON</h4>
-                                <small className='text-light'>Noob</small>
+                                {/* <small className='text-light'>Noob</small> */}
+                                <ProgressBar done="70" />
                             </div>
                         </article>
                         <article className='experience_details'>
                             <FaLinux className='experience_details_icon' />
                             <div>
                                 <h4>LINUX</h4>
-                                <small className='text-light'>Noob</small>
+                                {/* <small className='text-light'>Noob</small> */}
+                                <ProgressBar done="70" />
                             </div>
                         </article>
                         <article className='experience_details'>
                             <BsGithub className='experience_details_icon' />
                             <div>
                                 <h4>GITHUB</h4>
-                                <small className='text-light'>Noob</small>
+                                {/* <small className='text-light'>Noob</small> */}
+                                <ProgressBar done="70" />
                             </div>
                         </article>
 
