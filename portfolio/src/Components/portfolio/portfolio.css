@@ -14,7 +14,8 @@
 
 .portfolio_item:hover {
     border-color: var(--color-primary-variant);
-    background: transparent;
+    color: black;
+    background-image: linear-gradient(to right, rgb(250, 52, 214), rgb(93, 243, 191));
 }
 
 .portfolio_item_image {

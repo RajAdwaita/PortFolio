@@ -12,9 +12,9 @@ const data = [
     {
         id: 1,
         image: img1,
-        title: 'ShoeStore',
-        github: 'https://github.com',
-        website: 'https://github.com'
+        title: 'Previous Portfolio',
+        github: 'https://github.com/RajAdwaita/portFolio--1.0',
+        website: 'https://adwaitaraj.netlify.app/'
     },
     {
         id: 2,

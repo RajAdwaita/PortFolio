@@ -22,13 +22,29 @@
 }
 
 .contact_option:hover {
-    background: transparent;
+    background: black;
+    color: whitesmoke;
+    /* background-image: linear-gradient(to top, rgb(250, 52, 52), rgb(116, 243, 93)); */
+
     border-color: var(--color-primary-variant);
 
 }
 
-.contact_option_icon {
+.contact_option_icon_1 {
     font-size: 3rem;
+    color: rgb(218, 52, 52);
+    margin-bottom: 0.5rem;
+}
+
+.contact_option_icon_2 {
+    font-size: 3rem;
+    color: rgb(132, 206, 20);
+    margin-bottom: 0.5rem;
+}
+
+.contact_option_icon_3 {
+    font-size: 3rem;
+    color: rgb(68, 158, 219);
     margin-bottom: 0.5rem;
 }
 
