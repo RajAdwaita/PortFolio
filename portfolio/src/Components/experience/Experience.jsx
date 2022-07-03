@@ -20,7 +20,7 @@ const Experience = () => {
                             <div>
                                 <h4>HTML</h4>
                                 {/* <small className='text-light'>Intermediate</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="85" />
                             </div>
                         </article>
                         <article className='experience_details'>
@@ -28,7 +28,7 @@ const Experience = () => {
                             <div>
                                 <h4>CSS</h4>
                                 {/* <small className='text-light'>Intermediate</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="80" />
 
                             </div>
                         </article>
@@ -37,7 +37,7 @@ const Experience = () => {
                             <div>
                                 <h4>JAVASCRIPT</h4>
                                 {/* <small className='text-light'>Intermediate</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="75" />
 
                             </div>
                         </article>
@@ -55,7 +55,7 @@ const Experience = () => {
                             <div>
                                 <h4>MONGODB</h4>
                                 {/* <small className='text-light'>Intermediate</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="50" />
 
                             </div>
                         </article>
@@ -64,7 +64,7 @@ const Experience = () => {
                             <div>
                                 <h4>BOOTSTRAP</h4>
                                 {/* <small className='text-light'>Intermediate</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="80" />
 
                             </div>
                         </article>
@@ -78,7 +78,7 @@ const Experience = () => {
                             <div>
                                 <h4>JAVA</h4>
                                 {/* <small className='text-light'>Noob</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="85" />
                             </div>
                         </article>
                         <article className='experience_details'>
@@ -86,7 +86,7 @@ const Experience = () => {
                             <div>
                                 <h4>C++</h4>
                                 {/* <small className='text-light'>Noob</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="90" />
                             </div>
                         </article>
                         <article className='experience_details'>
@@ -94,7 +94,7 @@ const Experience = () => {
                             <div>
                                 <h4>PYTHON</h4>
                                 {/* <small className='text-light'>Noob</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="65" />
                             </div>
                         </article>
                         <article className='experience_details'>
@@ -102,7 +102,7 @@ const Experience = () => {
                             <div>
                                 <h4>LINUX</h4>
                                 {/* <small className='text-light'>Noob</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="85" />
                             </div>
                         </article>
                         <article className='experience_details'>
@@ -110,7 +110,7 @@ const Experience = () => {
                             <div>
                                 <h4>GITHUB</h4>
                                 {/* <small className='text-light'>Noob</small> */}
-                                <ProgressBar done="70" />
+                                <ProgressBar done="95" />
                             </div>
                         </article>
 

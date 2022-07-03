@@ -19,37 +19,37 @@ const data = [
     {
         id: 2,
         image: img2,
-        title: 'nCrypto',
-        github: 'https://github.com',
-        website: 'https://github.com'
+        title: 'PokemonHub',
+        github: 'https://github.com/RajAdwaita/Pokemon-GO',
+        website: 'https://timely-selkie-0ae8bc.netlify.app/'
     },
     {
         id: 3,
         image: img3,
         title: 'LadyHub',
-        github: 'https://github.com',
-        website: 'https://github.com'
+        github: 'https://github.com/RajAdwaita/LadyHub',
+        website: 'http://apparentlyinnocent.co/'
     },
     {
         id: 4,
         image: img4,
         title: 'BankingAPP',
         github: 'https://github.com',
-        website: 'https://github.com'
+        website: 'https://adwaitaprojects.netlify.app/'
     },
     {
         id: 5,
         image: img5,
-        title: 'SpeechEmotionRecognition',
-        github: 'https://github.com',
-        website: 'https://github.com'
+        title: 'BharatnCrypt',
+        github: 'https://github.com/RajAdwaita/bharatncrypt',
+        website: 'https://otpyrcn.netlify.app/'
     },
     {
         id: 6,
         image: img6,
-        title: 'ITEM',
-        github: 'https://github.com',
-        website: 'https://github.com'
+        title: 'Personal Projects ',
+        github: 'https://codesandbox.io/s/personal-projects-g6idwk',
+        website: 'https://adwaitaprojects.netlify.app/'
     },
 
 ]
